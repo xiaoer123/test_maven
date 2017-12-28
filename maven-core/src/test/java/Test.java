@@ -17,6 +17,8 @@ public class Test {
 
     public static void main(String[] args) {
         System.out.println("123");
+        System.out.println("那是当然的");
+        
 
         final InputStreamReader isr = new InputStreamReader(in);
         BufferedReader bufferedReader = new BufferedReader(isr);
