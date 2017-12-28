@@ -17,11 +17,12 @@ public class Test {
 
     public static void main(String[] args) {
         System.out.println("123");
-        String uye = "真帅";
+        String uye = "真帅个鸡儿";
         System.out.println(uye);
 
         final InputStreamReader isr = new InputStreamReader(in);
         BufferedReader bufferedReader = new BufferedReader(isr);
+        System.out.println(bufferedReader);
     }
 
 
@@ -35,7 +36,7 @@ public class Test {
 
         try {
             if (message != null) {
-
+                System.out.println("这不是斯巴达");
             }
         } catch (Exception e) {
             e.printStackTrace();
